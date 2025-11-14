@@ -3,3 +3,16 @@ Pytorch Implementation of [[SIGGRAPH Asia 2025] ART-DECO: Arbitrary Text Guidanc
 ### [Paper](https://arxiv.org/abs/2505.20431)  |  [Project page](https://qiminchen.github.io/artdeco/)
 
 <img src='teaser.jpg' />
+
+## Citation
+If you find our work useful in your research, please consider citing (to be updated):
+
+	@inproceedings{chen2025artdeco,
+	  title={ART-DECO: Arbitrary Text Guidance for 3D Detailizer Construction},
+	  author={Chen, Qimin and Yang, Yuezhi and Wang, Yifan and Kim, Vladimir G and Chaudhuri, Siddhartha and Zhang, Hao and Chen, Zhiqin},
+	  booktitle={SIGGRAPH Asia 2025 Conference Papers},
+	  year={2025},
+	}
+
+## Dependencies
+Requirements:
