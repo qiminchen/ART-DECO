@@ -1,4 +1,4 @@
-name: "mvdream-decorgan-sd21-rescale0.5-single"
+name: "mvdream-artdeco-sd21-rescale0.5-single"
 tag: "${rmspace:${system.prompt_processor.prompt},_}"
 exp_root_dir: "outputs"
 seed: 0
@@ -22,7 +22,7 @@ data:
   eval_fovy_deg: 40.
   eval_elevation_deg: 15.
 
-system_type: "decorgan-system"
+system_type: "artdeco-system"
 system:
   geometry_type: "voxel-grid-single"
   geometry:
