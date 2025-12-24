@@ -6,12 +6,13 @@ Pytorch Implementation of [[SIGGRAPH Asia 2025] ART-DECO: Arbitrary Text Guidanc
 
 ## Test (Web UI)
 1. Download the webUI code from here: [Google Drive](https://drive.google.com/file/d/1wxpQ2LQsEytuZVL4GOu1tur46FGRZCQv/view?usp=sharing) (We include 33 pre-trained weights corresponding to 33 text prompts)
-2. Unzip. Note: it does not matter where you unzip it
+2. Unzip (it does not matter where you unzip it)
 3. Run
    ```
    cd web-demo
    python app.py
    ```
+Note: This is the easiest way to test the model. If you want to export the textured mesh, please refer to [threestudio](https://github.com/threestudio-project/threestudio#export-meshes). 
 
 ## Citation
 If you find our work useful in your research, please consider citing (to be updated):
