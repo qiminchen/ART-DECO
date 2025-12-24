@@ -40,8 +40,7 @@ class VoxelGrid(BaseImplicitGeometry):
 
         conv_network_config: dict = field(
             default_factory=lambda: {
-                # "otype": "DECORGAN",
-                "otype": "DECORGANLG",
+                "otype": "DECORGAN",
                 "output_activation": "none",
                 "n_neurons": 64,
             }
