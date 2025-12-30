@@ -29,6 +29,10 @@ If you find our work useful in your research, please consider citing (to be upda
 ## Dependencies
 This project is built upon [threestudio](https://github.com/threestudio-project/threestudio#export-meshes) and [MVDream-threestudio](https://github.com/threestudio-project/threestudio#export-meshes). Please follow [MVDream-threestudio](https://github.com/bytedance/MVDream-threestudio?tab=readme-ov-file#installation) for the required env installation.
 
+## Data
+
+Please download the data from [Google Drive](https://drive.google.com/file/d/1_BQuHGMVEkPVFL_JoEYhgdR5Y5VKnL3X/view?usp=sharing) and put them in `/threestudio/data/`.
+
 ## Training
 
 We use two-stage training described in Sec. 3.4 of the paper for better structure generalization. This requires a single coarse voxel shape of the same shape category described in the text prompt. However, **if you do not have a single coarse voxel shape**, you can skip the first stage of training and simply follow the **Single-stage training** to train the model.
